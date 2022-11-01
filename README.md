@@ -1,6 +1,9 @@
 [![Build Status](https://github.com/clulab/pdf2txt/workflows/pdf2txt%20CI/badge.svg)](https://github.com/clulab/pdf2txt/actions)
 [![Maven Central](https://img.shields.io/maven-central/v/org.clulab/pdf2txt_2.12?logo=apachemaven)](https://search.maven.org/search?q=g:org.clulab%20a:pdf2txt*)
 
+
+This project is now tested on Keith's server.
+
 # pdf2txt
 
 The pdf2txt project combines interfaces to a number of PDF to text converters with text preprocessors that refine the converted text for use in further NLP applications.
