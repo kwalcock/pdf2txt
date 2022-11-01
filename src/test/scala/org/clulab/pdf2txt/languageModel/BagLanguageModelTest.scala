@@ -17,8 +17,4 @@ class BagLanguageModelTest extends Test {
     wordFrequencies("a") should be (2)
     wordFrequencies("Fabulous") should be (1)
   }
-	
-	it should "fail" in {
-		true should be (false)
-	}
 }
