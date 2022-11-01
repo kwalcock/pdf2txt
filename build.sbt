@@ -17,11 +17,13 @@ resolvers ++= Seq(
 //  Resolvers.localResolver,  // Reserve for Two Six.
   Resolvers.clulabResolver, // glove, processors-models
 //  Resolvers.jitpackResolver // Ontologies
+  "Artifactory" at "https://artifactory.keithalcock.com/artifactory/sbt-release"
 )
 
 libraryDependencies ++= {
   Seq(
-    "org.clulab" %% "processors-main" % "8.5.1"// up to 8.5.1 as of 2022-06-20
+    "org.clulab" %% "processors-main" % "8.5.1", // up to 8.5.1 as of 2022-06-20
+    "org.clulab" %% "model-streamed-trigram-ser-kwalcock" % "1.0.0" withSources() withJavadoc()
   )
 }
 
